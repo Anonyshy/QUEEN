@@ -1416,7 +1416,7 @@ break
                 await fs.unlinkSync(media)
             }
             break
-            case 'imagenobgxxx': case 'removebgxxx': case 'remove-bgxxx': {
+            case 'imagenobgxxx': case 'removebgxxx': case 'remove': {
 	    if (!quoted) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (!/image/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (/webp/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
