@@ -287,11 +287,13 @@ const reply = (teks) => {
                                 GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
                                 GojoMdNx.sendMessage(m.chat, { text: '*හූයි* 😁🤭 '},{quoted:m})
                             }break
-                        case '.Help': case '.help': case 'hlp': case 'Hlp':
+                        case 'Help': case 'help': case 'hlp': case 'Hlp':
                             {
                                 GojoMdNx.sendMessage(m.chat, { text: 'Type 👉.menu or'},{quoted:m})
-                                GojoMdNx.sendMessage(m.chat, { text: 'click here video 1 https://youtu.be/9RakJSwv8r4'},{quoted:m})
-                                GojoMdNx.sendMessage(m.chat, { text: 'click here video 2 https://youtu.be/K2FvdH8ZnoY'},{quoted:m})
+                                GojoMdNx.sendMessage(m.chat, { text: 'click here video1 https://youtu.be/9RakJSwv8r4'},{quoted:m})
+                                GojoMdNx.sendMessage(m.chat, { text: 'click here video2 https://youtu.be/K2FvdH8ZnoY'},{quoted:m})
+                                GojoMdNx.sendMessage(m.chat, { text: '.ytmp4 https://youtu.be/9RakJSwv8r4 360p'},{quoted:m})
+                                GojoMdNx.sendMessage(m.chat, { text: '.ytmp4 https://youtu.be/K2FvdH8ZnoY 360p'},{quoted:m})
                             }break
                         case 'ane': case 'Ane': case 'අනේ':
                             {
